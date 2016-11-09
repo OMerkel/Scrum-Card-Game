@@ -17,11 +17,11 @@ To ease printing and finishing of cards a business card size of
 85mm x 54mm is chosen in files of directory named
 'business card size-85x54mm'. Typically this size offers to print
 10 cards per sheet. This is an international standard size for
-business cards so that any business card box can be used to store
-the cards. Standard business card pouches (one card per transparent
-pouch) can be found for making the print-and-play game material
-durable without dealing to laminate each card. Fast exchange or
-introduction of new cards is possible this way.
+business cards so that any standard business card box can be used
+to store the cards. Standard business card pouches (one card per
+transparent pouch) can be found for making the print-and-play game
+material durable without dealing to laminate each card. Fast
+exchange or introduction of new cards is possible this way.
 
 The cards are provided in editable form as a LibreOffice Impress
 document. The printed cards need to be cut when using normal paper.
