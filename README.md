@@ -11,7 +11,7 @@ you could laminate the cards.
 
 Experience showed that the format of 8 cards per sheet is a
 disadvantage in case temporary modifications or experimental
-changes should be done to the cards text or data.
+changes should be done to the card text or data.
 
 To ease printing and finishing of cards a business card size of
 85mm x 54mm is chosen in files of directory named
@@ -38,6 +38,6 @@ high.
 
 ## Legal / License
 
-<a rel='license' href='http://creativecommons.org/licenses/by-sa/4.0'><img alt='Creative Commons License' style='border-width:0' src='res/cc_by_sa-88x31.png' /></a><br />This image is licensed under a <a rel='license' href='http://creativecommons.org/licenses/by-sa/4.0'>Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<a rel='license' href='http://creativecommons.org/licenses/by-sa/4.0'><img alt='Creative Commons License' style='border-width:0' src='res/cc_by_sa-88x31.png' /></a><br />This work is licensed under a <a rel='license' href='http://creativecommons.org/licenses/by-sa/4.0'>Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
 _All logos, brands, and trademarks mentioned belong to their respective owners._
