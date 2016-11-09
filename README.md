@@ -22,6 +22,9 @@ to store the cards. Standard business card pouches (one card per
 transparent pouch) can be found for making the print-and-play game
 material durable without dealing to laminate each card. Fast
 exchange or introduction of new cards is possible this way.
+As another option TCGs (Trading Card Games) often come in card
+size with sleeves or deck protectors of 2-1/4 x 3-1/2 inch
+( 57mm x 88mm sleeves ) that could be used to protect the cards.
 
 The cards are provided in editable form as a LibreOffice Impress
 document. The printed cards need to be cut when using normal paper.
