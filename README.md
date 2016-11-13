@@ -2,6 +2,10 @@
 
 Scrum Card Game: Scrum Sprint Simulation played as a multi-player card game
 
+<table><tbody>
+<tr><td><img alt='The main game material of Scrum Card Game' src='scrum_card_game-rules/docbook/src/docbkx/media/game_material_de.jpg' width='80%' /></td><td>The main game material of Scrum Card Game,<br /><a rel='license' href='http://creativecommons.org/licenses/by-sa/4.0'><img alt='Creative Commons License' style='border-width:0' src='res/cc_by_sa-88x31.png' /></a>This image is licensed under a <a rel='license' href='http://creativecommons.org/licenses/by-sa/4.0'>Creative Commons Attribution-ShareAlike 4.0 International License</a>.</td></tr>
+</tbody></table>
+
 ## Print and Play
 
 This repository's subdirectories contain PDF files with rules and
@@ -9,34 +13,42 @@ cards to print and play the game. Different variants of card
 sizes are available. To make the cards durable you could laminate
 the cards.
 
-Experience showed that the format of 8 cards per sheet is a
-disadvantage in case temporary modifications or experimental
-changes should be done to the card text or data.
+* <a href='scrum_card_game-rules/scrum_card_game-rules.pdf'>Get the Rules in English!</a>
+* The subdirectories names reflect which card size can be found in there.
 
-To ease printing and finishing of cards a business card size of
-85mm x 54mm is chosen in files of directory named
-'business card size-85x54mm'. Typically this size offers to print
-10 cards per sheet. This is an international standard size for
-business cards so that any standard business card box can be used
-to store the cards. Standard business card pouches (one card per
-transparent pouch) can be found for making the print-and-play game
-material durable without dealing to laminate each card. Fast
-exchange or introduction of new cards is possible this way.
-As another option TCGs (Trading Card Games) often come in card
-size with sleeves or deck protectors of 2-1/4 x 3-1/2 inch
-( 57mm x 88mm sleeves ) that could be used to protect the cards.
+The card designs of the Scrum Card Game are available in PDF or even the source
+format to generate the PDF files on your own. If you can get blank business cards
+available as office supplies then you can print the PDF onto the blank cards.
+Another option is to print the cards on normal paper and then cut the cards manually. Heavy
+weight paper shall be used for enhanced durability. For better protection the cards could be laminated.
+The lamination foil should be non glare if possible and available. In case you plan to create own card
+texts or modify the existing ones you should go for an alternative approach like putting the cards into
+business card pouches for single cards. The cards are kept in the protecting pouches while playing and
+the cards can be easily removed from the pouch as intended, be modified and placed back.
 
-The cards are provided in editable form as a LibreOffice Impress
-document. The printed cards need to be cut when using normal paper.
-Alternatively you will be able to get blank business cards sheets to
-print on. Mind that some blank business cards are available that
-can easily be separated from the print sheet and then have absolutely
-smooth edges. Such that the game card quality and finish is very
-high.
+Using card size of standard business cards (85mm x 54mm) will allow to use business card pouches
+for card protection. To ease printing and finishing of cards a business card size of
+85mm x 54mm is chosen in files of directory named 'business card size-85x54mm'.
+
+Instead of searching for business card pouches in office supplies
+you could find similar articles in game stores stocking Trading Card
+Games (TCGs). TCG players often protect their cards with card
+sleeves or card protectors. The ones that match the business cards
+in size are called Standard American Board Game Sleeves
+(87mm x 56mm, 3-1/2 x 2-1/4 inch).
+
+More common and popular for TCGs is a so called Standard Card Size
+(88mm x 63mm, 3-1/2 x 2-1/2 inch) with sleeve protectors a bit
+bigger than that (91mm x 66mm). In case you can get these in different
+variants then non glare sleeves are recommended.
+
+The cards are provided in editable form as LibreOffice documents, too.
 
 ## Links
 
 * http://scrumcardgame.com/scrum-card-game-rules
+* http://docbook.org/
+* https://maven.apache.org/
 * http://www.libreoffice.org
 
 ## Legal / License
