@@ -5,8 +5,9 @@ Scrum Card Game: Scrum Sprint Simulation played as a multi-player card game
 ## Print and Play
 
 This repository's subdirectories contain PDF files with rules and
-cards to print and play the game. Variants of card sizes are available
-To make the cards durable you could laminate the cards.
+cards to print and play the game. Different variants of card
+sizes are available. To make the cards durable you could laminate
+the cards.
 
 Experience showed that the format of 8 cards per sheet is a
 disadvantage in case temporary modifications or experimental
