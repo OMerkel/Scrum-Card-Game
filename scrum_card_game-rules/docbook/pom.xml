@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>scrum_card_game</groupId>
+  <artifactId>scrum_card_game-rules</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <name>Docbkx Maven Quickstart Archetype</name>
+  <packaging>pom</packaging>
+
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>com.agilejava.docbkx</groupId>
+        <artifactId>docbkx-maven-plugin</artifactId>
+        <version>2.0.17</version>
+        <executions>
+          <!-- -->
+          <execution>
+            <id>documentation identifier</id>
+            <phase>pre-site</phase>
+            <goals>
+              <!--
+              <goal>generate-html</goal>
+              <goal>generate-pdf</goal>
+              <goal>generate-...</goal>
+              -->
+              <goal>generate-pdf</goal>
+            </goals>
+            <configuration>
+              <!-- per execution configuration -->
+              <includes>book.xml</includes>
+              <draftMode>yes</draftMode>
+            </configuration>
+          </execution>
+        </executions>
+        <configuration>
+          <!-- shared configuration -->
+          <generatedSourceDirectory>${project.build.directory}/docbkx/generated</generatedSourceDirectory>
+          <xincludeSupported>true</xincludeSupported>
+          <paperType>A4</paperType>
+          <fop1Extensions>1</fop1Extensions>
+
+          <foCustomization>src/docbkx-stylesheet/fo/docbook.xsl</foCustomization>
+          
+          <customizationParameters>
+            <!-- additional XSLT parameters-->
+            <parameter>
+              <name>key</name>
+              <value>value</value>
+            </parameter>
+          </customizationParameters>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>

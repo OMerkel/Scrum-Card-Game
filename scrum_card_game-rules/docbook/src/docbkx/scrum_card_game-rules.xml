@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book version="5.0" xmlns="http://docbook.org/ns/docbook"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:db="http://docbook.org/ns/docbook">
+  <info>
+    <title>SCRUM CARD GAME</title>
+    <subtitle>The Manual</subtitle>
+    <authorgroup>
+      <author>
+        <personname>
+          <firstname>Timofey (Tim)</firstname>
+          <surname>Yevgrashyn</surname>
+        </personname>
+      </author>
+      <author>
+        <personname>
+          <firstname>Oliver</firstname>
+          <surname>Merkel</surname>
+        </personname>
+      </author>
+    </authorgroup>
+    <copyright>
+      <year>2010, 2016</year>
+      <holder>Timofey (Tim) Yevgrashyn, All rights reserved.</holder>
+    </copyright>
+    <releaseinfo>Version 3.1, July 2016, see http://scrumcardgame.com for updates and additional materials.</releaseinfo>
+    <legalnotice>
+      <para>SCRUM CARD GAME by Timofey (Tim) Yevgrashyn is licensed under a Creative Commons
+        Attribution-ShareAlike 4.0 International License.</para>
+      <para>You have permission to use, copy and redistribute the material in any medium or format
+        and also remix, transform, and build upon the material for any purpose, even
+        commercially.</para>
+      <para>Under the following terms:</para>
+      <para><emphasis role="bold">Attribution</emphasis> — You must give appropriate credit, provide a link to the license, and
+        indicate if changes were made.</para>
+      <para><emphasis role="bold">ShareAlike</emphasis> — If you remix, transform, or build upon the material, you must distribute your
+        contributions under the same license as the original.</para>
+      <para>To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0.</para>
+      <para>All logos, brands, and trademarks mentioned belong to their respective owners.</para>
+    </legalnotice>
+  </info>
+
+  <chapter>
+    <title>SCRUM CARD GAME rules</title>
+
+    <section>
+      <title>What is SCRUM CARD GAME?</title>
+
+      <para>SCRUM CARD GAME is a simple game, which lets players experience work in Scrum sprints
+        and brings to discussion many questions and topics that happen in real life while working
+        in a Scrum team. Even the discussion on the table will be very close to the real-life
+        experience of the work in a scrum team. This game is usually played during a training or
+        workshop. Participants must already have an understanding of the Scrum framework. Or
+        you should introduce them to the framework right before the game. They can learn more
+        while playing this game. It might also be a useful method to make an experienced team
+        reflect on their established scrum rituals and rules.</para>
+      <para>Split the audience into teams of 4-5-6 people, equally if
+        possible. No more than six players per team.</para>
+    </section>
+    <section>
+      <title>Objective</title>
+
+      <para><emphasis role="bold">Set the Goal: You are competitive development centers aimed to deliver a new
+        application to the market. The most productive team wins :-)</emphasis></para>
+    </section>
+    <section>
+      <title>Game Material</title>
+      <mediaobject>
+        <imageobject>
+          <imagedata width="130mm" fileref="media/game_material_de.jpg"></imagedata>
+        </imageobject>
+        <caption>
+          <para>The main Scrum Card Game components.</para>
+        </caption>
+      </mediaobject>
+      <para>The game set consists of</para>
+      <itemizedlist mark='bullet'>
+        <listitem>
+          <para>
+            Set of cards: Stories, Events, Problems, and Solutions (see printable version below)
+          </para>
+        </listitem>
+        <listitem>
+          <para>
+            Two six-sided dices (per each team)
+          </para>
+        </listitem>
+        <listitem>
+          <para>
+            Flipchart
+          </para>
+        </listitem>
+        <listitem>
+          <para>
+            Markers or Post-Its
+          </para>
+        </listitem>
+      </itemizedlist>
+    </section>
+    <section>
+      <title>Preparation</title>
+      <itemizedlist mark='bullet'>
+        <listitem>
+          <para>Provide each team with a set of Story cards
+            <itemizedlist mark='opencircle'>
+              <listitem>
+                <para>Cards with stories forming the “Backlog” deck</para>
+              </listitem>
+              <listitem>
+                <para>Backlog is prioritized (sequence number in top corner) and estimated
+                 (hours in bottom corner)</para>
+              </listitem>
+              <listitem>
+                <para>3 days per iteration (there will be maximum 3 iterations)</para>
+              </listitem>
+              <listitem>
+                <para>Every iteration consists of:
+                  <orderedlist numeration="loweralpha">
+                    <listitem>
+                      <para>Planning and commitment</para>
+                    </listitem>
+                    <listitem>
+                      <para>Work within iteration</para>
+                    </listitem>
+                    <listitem>
+                      <para>Sprint Review + Retrospective</para>
+                    </listitem>
+                  </orderedlist>
+                </para>
+              </listitem>
+            </itemizedlist>
+          </para>
+        </listitem>
+        <listitem>
+          <para>Make the group arrange a simple Task Board by marking TODO, IN PROGRESS,
+            DONE columns with simple sticky notes to visualize their state.
+          </para>
+        </listitem>
+        <listitem>
+          <para>Prepare a flipchart list with visualization of PLAN and ACTUAL columns for each
+            team in play.</para>
+        </listitem>
+      </itemizedlist>
+    </section>
+    <section>
+      <title>Planning</title>
+      <itemizedlist mark='bullet'>
+        <listitem>
+          <para>Ask teams “how many features do you believe you can deliver in the next
+            iteration?”
+            <itemizedlist mark='bullet'>
+              <listitem>
+                <para>In the first round let every team calculate their number of man-hours per
+                  iteration as they would like to do.
+                  Allow them to make even optimistic commitment :)</para>
+              </listitem>
+              <listitem>
+                <para>To perform 2nd and 3rd planning you ask teams to use historical data.</para>
+              </listitem>
+            </itemizedlist>
+          </para>
+        </listitem>
+        <listitem>
+          <para>Put selected cards from “Backlog” into TODO column.</para>
+        </listitem>
+        <listitem>
+          <para>Write down commitment as the total number of estimates and numbers of Stories
+            of every team on a flip chart into “Plan” column.</para>
+        </listitem>
+      </itemizedlist>
+    </section>
+    <section>
+      <title>Daily Work within an Iteration</title>
+      <para>Each iteration consists of three days. Each day consists of every
+        team-member working on the sprint. It starts with player 1 “working”
+        on the sprint. If the last member of the team “worked” the first day
+        has ended. Now the same for day two and three starts. “Working” in the
+        sprint is described below. Every team member in their turn should:</para>
+      <itemizedlist mark='bullet'>
+        <listitem>
+          <para>Select a Story to work on (it should appear in “IN PROGRESS”) and make this
+            choice visible by pointing on the card with the finger.</para>
+        </listitem>
+        <listitem>
+          <para>Roll two dices to determine the number of productive hours of
+            this team-member on this day
+            <itemizedlist mark='bullet'>
+              <listitem>
+                <para>Hand over two dices on the first round right after explaining this step.</para>
+              </listitem>
+            </itemizedlist>
+          </para>
+        </listitem>
+        <listitem>
+          <para>Deduct number on the dice from remaining hours on the card (s)he “works on”
+○ Advise players to calculate remaining as it helps to avoid mistakes
+○ To simplify tracking participants can stick a post-it on a card and write
+remaining time there
+          </para>
+        </listitem>
+        <listitem>
+          <para>Pull the card from the “Chance” deck
+○ Hand over the “Chance” deck on the first round right after explaining this
+step
+          </para>
+        </listitem>
+        <listitem>
+          <para>Do whatever the card says. There are three possible types of cards:
+            <itemizedlist mark='bullet'>
+              <listitem>
+                <para><emphasis role="bold">Event</emphasis> - a one-time
+                  action, that affects immediately and is discarded after
+                  being played.</para>
+              </listitem>
+              <listitem>
+                <para><emphasis role="bold">Problem</emphasis> - these sticky
+                  issues are blocking the Story that the player was
+                  “working on”. Each problem is a case taken from the real
+                  life, a team could bring examples or details into each
+                  Problem from their experience.
+                  <itemizedlist mark='bullet'>
+                    <listitem>
+                      <para>Blocking means the team can’t move the story
+                        into DONE state, they have to find a Solution for
+                        the kind of problems stated on a card.</para>
+                    </listitem>
+                    <listitem>
+                      <para>Blocking doesn’t prevent from continue work
+                        on a Story (deducting hours until zero).</para>
+                    </listitem>
+                    <listitem>
+                      <para>Sometimes, positive Events could also
+                        help with Problems :-)</para>
+                    </listitem>
+                  </itemizedlist>
+                </para>
+              </listitem>
+              <listitem>
+                <para><emphasis role="bold">Solution</emphasis> - A solution
+                  is a team’s asset or action which can be applied at
+                  any time to solve a problem and unblock a Story. Once
+                  a Solution is applied the Problem and Solution card
+                  are both discarded.
+                  <itemizedlist mark='bullet'>
+                    <listitem>
+                      <para>Solutions could be collected by the team if there
+                        are no appropriate Problems - they are collected from
+                        iteration to iteration and belong to the whole team.</para>
+                    </listitem>
+                  </itemizedlist>
+                </para>
+              </listitem>
+            </itemizedlist>
+          </para>
+        </listitem>
+        <listitem>
+          <para>If User Story is done (0 hours remaining and no blockers) -
+            move it to DONE column.</para>
+        </listitem>
+        <listitem>
+          <para>DONE criteria for a Story:
+            <itemizedlist mark='bullet'>
+              <listitem>
+                <para>Team members delivered the number of hours equal or
+                  greater than the estimate of the Story.</para>
+              </listitem>
+              <listitem>
+                <para>A Story must not be blocked by a Problem.</para>
+              </listitem>
+            </itemizedlist>
+          </para>
+        </listitem>
+      </itemizedlist>
+      <para>Once again, at every “day” each player does follow:
+        <itemizedlist mark='bullet'>
+          <listitem>
+            <para>Choose a card to “work on”</para>
+          </listitem>
+          <listitem>
+            <para>Throw two dices</para>
+          </listitem>
+          <listitem>
+            <para>Pick a Chance card</para>
+          </listitem>
+        </itemizedlist>
+      </para>
+    </section>
+    <section>
+      <title>Sprint Review + Retrospective</title>
+      <itemizedlist mark='bullet'>
+        <listitem>
+          <para>After each player's 3rd turn the Sprint is over.</para>
+        </listitem>
+        <listitem>
+          <para>Each team should present Stories accomplished (i.e. only
+            stories in DONE column) and calculate the actual result as the
+            total of DONE Stories.</para>
+        </listitem>
+        <listitem>
+          <para>Compare Actual result with initial Plan.</para>
+        </listitem>
+        <listitem>
+          <para>Review remaining work and discuss the reason, also discuss
+            how to account these remaining Stories in next Sprint to make
+            sure we maintain the total number from the original
+            estimations.</para>
+        </listitem>
+        <listitem>
+          <para>Retrospect on how to perform in next Sprint to achieve more.</para>
+        </listitem>
+      </itemizedlist>
+    </section>
+    <section>
+      <title>Debriefing</title>
+      <para>To start debriefing you should bring the flipchart(s) in front of the
+        audience to visualize all Planned and Actual data for each of the three
+        sprints. Here are some topics to adress
+        <itemizedlist mark='bullet'>
+          <listitem>
+            <para>Planned vs. Actual</para>
+          </listitem>
+          <listitem>
+            <para>Velocity variations</para>
+          </listitem>
+          <listitem>
+            <para>Hours Estimate vs. Size (Original Estimate)</para>
+          </listitem>
+          <listitem>
+            <para>Major risks happened (technical, people, unplanned Events)</para>
+          </listitem>
+          <listitem>
+            <para>What are the hardest types of risks to take?</para>
+          </listitem>
+          <listitem>
+            <para>Could we forecast bad events?</para>
+          </listitem>
+          <listitem>
+            <para>etc…</para>
+          </listitem>
+        </itemizedlist>
+      </para>
+    </section>
+  </chapter>
+
+  <chapter>
+    <title>Get the Game Materials</title>
+    <section>
+      <title>Order Printed Set</title>
+      <para>At time of writing you can order the already printed
+        game cards and other related material by visiting and
+        shopping on http://scrumcardgame.com .</para>
+    </section>
+    <section>
+      <title>Print and Play</title>
+      <para>This definitively is the more creative approach to get the
+        game material. The card designs of the Scrum Card Game are
+        available in PDF or even the source format to generate the PDF
+        files on your own. If you can get blank business cards available
+        as office supplies then you can print the PDF onto the blank
+        cards. Another option is to print the cards on normal paper and
+        then cut the cards manually. Heavy weight paper shall be used
+        for enhanced durability. For better protection the cards could
+        be laminated. The lamination foil should be non glare if
+        possible and available. In case you plan to create own card 
+        texts or modify the existing ones you should go for an
+        alternative approach like putting the cards into business
+        card pouches for single cards. The cards are kept in the
+        protecting pouches while playing and the cards can be easily
+        removed from the pouch as intended, be modified and placed
+        back.</para>
+      <mediaobject>
+        <imageobject>
+          <imagedata width="140mm" fileref="media/business_card_pouch.jpg"></imagedata>
+        </imageobject>
+        <caption>
+          <para>Using card size of standard business cards
+            (85mm x 54mm) will allow to use business card
+            pouches for card protection.</para>
+        </caption>
+      </mediaobject>
+      <para>Instead of searching for business card pouches in office
+        supplies you could find similar articles in game stores
+        stocking Trading Card Games (TCGs). TCG players often protect
+        their cards with card sleeves or card protectors. The ones
+        that match the business cards in size are called
+        Standard American Board Game Sleeves (56mm x 87mm).</para>
+      <para>More common and popular for TCGs is a so called
+        Standard Card Size (88mm x 63mm) with sleeve protectors a bit
+        bigger than that (91mm x 66mm). In case you can get these in
+        different variants then non glare sleeves are recommended.</para>
+    </section>
+  </chapter>
+
+  <chapter>
+    <title>About the Authors</title>
+    <section>
+      <title>Timofey Yevgrashyn</title>
+      <para>I’m an experienced Agile Manager with consulting, coaching
+        and training expertise. My personal experience in IT industry
+        starts back at 1998, from which more than 12 years I had been
+        managing effective software teams and most of the time with
+        Agile methods. Over last eight years, I am sharing the knowledge
+        and experience as a Trainer, Agile Coach, and Consultant.</para>
+      <para>I have proven track record of launching and leading
+        Agile/Lean transformations that lead to aligning delivery with
+        business goals. By 2016 I have helped to more than 50 teams
+        from over 10 countries, done about 3000 hours of Agile training
+        for over 4000 people. My specialties: Agile and Lean based
+        processes, Agile Product Management, Organizational Culture
+        transformation, Leadership Coaching.</para>
+      <para>My work is always pragmatic and practical and training is
+        more an interactive workshop than just a theory. I’m a big fan
+        of education with games and is the author of several
+        Agile games.</para>
+      <para>Since 2009, I write for my Russian-speaking blog “The
+        Improved Methods” (http://tim.com.ua) to popularize Agile/Lean
+        mindset and methods on Eastern Europe. Also, I’m an experienced
+        public speaker participated in international and local
+        conferences. You can find the archive of slides on my site. Or
+        simply invite me to your conference for the talk or
+        a workshop. :-)</para>
+    </section>
+    <section>
+      <title>Oliver Merkel</title>
+      <para>I am an Electrical Engineer and Computer Science guy.
+        Currently not really in need for any more sophisticated advertising.
+        Still if you appreciate my work then tell me or better tell others
+        about it. All hands person. Actively developing in embedded systems
+        writing boot scripts, boot loaders, hardware abstraction,
+        driver development, up to application development and
+        architectural stuff in various team sizes and set ups.
+        Doing stuff professionally like holding trainings, consulting,
+        live agile methods, doing management, project and team leads,
+        and developing long enough so to know what I am doing.
+        There might be ways to bribe me. Be creative... :-)</para>
+    </section>
+  </chapter>
+</book>
