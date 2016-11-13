@@ -4,10 +4,9 @@ Scrum Card Game: Scrum Sprint Simulation played as a multi-player card game
 
 ## Print and Play
 
-This repository's subdirectory named 'Timofey' contains PDF files
-with rules and cards to print and play the game. Card size is chosen
-with 8 cards per sheet of printed paper. To make the cards durable
-you could laminate the cards.
+This repository's subdirectories contain PDF files with rules and
+cards to print and play the game. Variants of card sizes are available
+To make the cards durable you could laminate the cards.
 
 Experience showed that the format of 8 cards per sheet is a
 disadvantage in case temporary modifications or experimental
