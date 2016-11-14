@@ -28,7 +28,7 @@ the cards can be easily removed from the pouch as intended, be modified and plac
 
 Using card size of standard business cards (85mm x 54mm) will allow to use business card pouches
 for card protection. To ease printing and finishing of cards a business card size of
-85mm x 54mm is chosen in files of directory named 'business card size-85x54mm'.
+85mm x 54mm is chosen in files of directory named '85x54mm-business card size'.
 
 Instead of searching for business card pouches in office supplies
 you could find similar articles in game stores stocking Trading Card
