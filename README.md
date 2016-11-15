@@ -48,8 +48,8 @@ The cards are provided in editable form as LibreOffice documents, too.
 ## Links
 
 * http://scrumcardgame.com/scrum-card-game-rules
-* http://docbook.org/
-* https://maven.apache.org/
+* http://docbook.org
+* https://maven.apache.org
 * http://www.libreoffice.org
 
 ## Legal / License
