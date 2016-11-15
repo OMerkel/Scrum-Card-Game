@@ -14,6 +14,7 @@ sizes are available. To make the cards durable you could laminate
 the cards.
 
 * <a href='scrum_card_game-rules/scrum_card_game-rules.pdf'>Get the Rules in English!</a>
+* <a href='scrum_card_game-rules/scrum_card_game-rules-de.pdf'>Get the Rules in German!</a>
 * The subdirectories names reflect which card size can be found in there.
 
 The card designs of the Scrum Card Game are available in PDF or even the source
