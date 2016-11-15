@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book version="5.0" xmlns="http://docbook.org/ns/docbook"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:db="http://docbook.org/ns/docbook"
+      lang="de">
+  <info>
+    <title>SCRUM CARD GAME</title>
+    <subtitle>Handbuch</subtitle>
+    <authorgroup>
+      <author>
+        <personname>
+          <firstname>Timofey (Tim)</firstname>
+          <surname>Yevgrashyn</surname>
+        </personname>
+      </author>
+      <author>
+        <personname>
+          <firstname>Nils</firstname>
+          <surname>Bernert</surname>
+        </personname>
+      </author>
+      <author>
+        <personname>
+          <firstname>Oliver</firstname>
+          <surname>Merkel</surname>
+        </personname>
+      </author>
+    </authorgroup>
+    <copyright>
+      <year>2010, 2016</year>
+      <holder>Timofey (Tim) Yevgrashyn, Nils Bernert, Oliver Merkel, alle Rechte vorbehalten.</holder>
+    </copyright>
+    <releaseinfo>Version 3.0.1, November 2016, http://scrumcardgame.com für aktualisiertes und zusätzliches Material.</releaseinfo>
+    <legalnotice>
+      <para>SCRUM CARD GAME ist lizensiert unter der Creative Commons
+        Attribution-ShareAlike 4.0 International License.</para>
+      <para>Englischer Originaltext der Lizenz:</para>
+      <para>You have permission to use, copy and redistribute the material in any medium or format
+        and also remix, transform, and build upon the material for any purpose, even
+        commercially.</para>
+      <para>Under the following terms:</para>
+      <para><emphasis role="bold">Attribution</emphasis> — You must give appropriate credit, provide a link to the license, and
+        indicate if changes were made.</para>
+      <para><emphasis role="bold">ShareAlike</emphasis> — If you remix, transform, or build upon the material, you must distribute your
+        contributions under the same license as the original.</para>
+      <para>To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0.</para>
+      <para>All logos, brands, and trademarks mentioned belong to their respective owners.</para>
+    </legalnotice>
+  </info>
+
+  <chapter>
+    <title>SCRUM CARD GAME Spielregeln</title>
+
+    <section>
+      <title>Worum geht es beim SCRUM CARD GAME?</title>
+
+      <para>Das SCRUM CARD GAME ist ein Simulationsspiel, bei dem die
+        Teilnehmer SCRUM-Sprintzyklen nachstellen, bzw. durchspielen.
+        Dies geschieht in Teams, die jeweils für sich kollaborativ
+        arbeiten. Diese einfache Spielsimulation kann dazu dienen,
+        die Teilnehmer auf die Art der Arbeit eines Scrum-Teams
+        vorzubereiten. Ein positiver Lerneffekt wird durch
+        aufkommende Fragen und begleitende Diskussion gefördert.</para>
+      <para>Das Spiel kann typischerweise begleitend zu einem agilen
+        Training oder Workshop stattfinden. Vorhandene Kenntnisse
+        der Teilnehmer über das Scrum-Framework oder agile Methoden
+        sind dabei hilfreich, jedoch nur eingeschränkt notwendig.</para>
+      <para>Die Teilnehmer bilden möglichst gleich große Teams von
+        4 bis maximal 6 Personen.</para>
+    </section>
+    <section>
+      <title>Spielziel</title>
+
+      <para><emphasis role="bold">Zielsetzung: Ihr seid konkurrierende
+        Entwicklerteams mit dem Ziel, eine neue Anwendung auf den Markt
+        zu bringen. Das produktivste Team gewinnt! :-)</emphasis></para>
+    </section>
+    <section>
+      <title>Spielmaterial</title>
+      <mediaobject>
+        <imageobject>
+          <imagedata width="130mm" fileref="media/game_material_de.jpg"></imagedata>
+        </imageobject>
+        <caption>
+          <para>Das wesentliche Scrum Card Game-Spielmaterial.</para>
+        </caption>
+      </mediaobject>
+      <para>Ein Spielsatz besteht aus</para>
+      <itemizedlist mark='bullet'>
+        <listitem>
+          <para>
+            Pro Team ein Kartensatz (Stories, Events, Probleme und Lösungen),
+          </para>
+        </listitem>
+        <listitem>
+          <para>
+            Zwei sechsseitige Würfel pro Team,
+          </para>
+        </listitem>
+        <listitem>
+          <para>
+            Flipchart,
+          </para>
+        </listitem>
+        <listitem>
+          <para>
+            Papier oder Haftnotizzettel und Stift.
+          </para>
+        </listitem>
+      </itemizedlist>
+    </section>
+    <section>
+      <title>Spielvorbereitung</title>
+      <itemizedlist mark='bullet'>
+        <listitem>
+          <para>Verteile einen Satz Story-Karten an jedes Team.
+            <itemizedlist mark='opencircle'>
+              <listitem>
+                <para>Die Story-Karten stellen das initiale “Backlog” dar.</para>
+              </listitem>
+              <listitem>
+                <para>Das Backlog ist bereits priorisiert durch eine
+                  <itemizedlist mark='opencircle'>
+                    <listitem>
+                      <para>Abarbeitungsreihenfolge laut Nummer links oben und</para>
+                    </listitem>
+                    <listitem>
+                      <para>dem abgeschätzten Stundenumfang zur Bearbeitung laut
+                        Nummer rechts unten auf den Story-Karten.</para>
+                    </listitem>
+                  </itemizedlist>
+                </para>
+              </listitem>
+              <listitem>
+                <para>Die Simulationsdauer beträgt 3 Tage pro Iteration bei maximal 3 Iterationen.</para>
+              </listitem>
+              <listitem>
+                <para>Jede Iteration besteht aus:
+                  <orderedlist numeration="loweralpha">
+                    <listitem>
+                      <para>Planung, Prognose und Selbstverpflichtung entsprechend eigener Planung</para>
+                    </listitem>
+                    <listitem>
+                      <para>Arbeit während des Sprints</para>
+                    </listitem>
+                    <listitem>
+                      <para>Sprint-Review und Retrospektive</para>
+                    </listitem>
+                  </orderedlist>
+                </para>
+              </listitem>
+            </itemizedlist>
+          </para>
+        </listitem>
+        <listitem>
+          <para>Das Team erstellt ein simples Task Board mit drei Spaltenüberschriften namens
+            <itemizedlist mark='opencircle'>
+              <listitem>
+                <para>TODO,</para>
+              </listitem>
+              <listitem>
+                <para>IN PROGRESS und</para>
+              </listitem>
+              <listitem>
+                <para>DONE.</para>
+              </listitem>
+            </itemizedlist>
+          </para>
+          <para>Mit einfachen beschrifteten Haftnotizzetteln als Spaltenüberschriften kann
+            das Task Board auf einem Tisch ausgelegt werden. Mit während des Spiels
+            beschrifteten weiteren Haftnotizen wird dann der Fortschritt für die einzelnen
+            Stories transparent gemacht.</para>
+        </listitem>
+        <listitem>
+          <para>Erstelle ein Flipchart mit zwei Spalten pro Team namens
+            PLAN und GESCHAFFT zur Visualisierung von Prognose und
+            tatsächlich erreichter Lieferleistung.</para>
+        </listitem>
+      </itemizedlist>
+    </section>
+    <section>
+      <title>Planung</title>
+      <itemizedlist mark='bullet'>
+        <listitem>
+          <para>Frage das Team: “Wieviele Features glaubt ihr pro Iteration liefern zu können?”
+            <itemizedlist mark='bullet'>
+              <listitem>
+                <para>Bitte das Team in der ersten Runde die durchschnittliche
+                  Anzahl an Mann-Stunden, die sie pro Iteration arbeiten werden,
+                  abzuschätzen.
+                  Eine optimistische Prognose ist zulässig. :)</para>
+              </listitem>
+              <listitem>
+                <para>Bitte das Team, Daten vorheriger Iterationen für 2. und 3.
+                  Planung einzubeziehen.</para>
+              </listitem>
+            </itemizedlist>
+          </para>
+        </listitem>
+        <listitem>
+          <para>Die Teams wählen Story-Karten aus dem Backlog und
+            legen diese jeweils in die TODO-Spalte.</para>
+        </listitem>
+        <listitem>
+          <para>Schreibe die Prognose jedes Teams als Summe der Schätzwerte,
+            sowie die Story-Nummern auf ein Flipchart in eine “Plan”-Spalte.</para>
+        </listitem>
+      </itemizedlist>
+    </section>
+    <section>
+      <title>Tägliche Arbeit während der Iteration</title>
+      <para>Jede Iteration, also simulierter Sprint-Zyklus, besteht aus
+        drei Tagen simulierter Spielzeit. Ein simulierter Spieltag bedeutet,
+        dass jedes Teammitglied reihum einmal am Zug ist. Der erste Spieler
+        startet den simulierten Spieltag. Der letzte Teamspieler beendet den
+        simulierten Arbeitstag mit seinem Zug. Der nächste Tag startet direkt
+        danach, wenn jeder an der Reihe war. Ein Spielzug besteht aus
+        folgenden Aktionen jedes Teammitglieds:</para>
+      <itemizedlist mark='bullet'>
+        <listitem>
+          <para>Eine Story auswählen, an der gearbeitet wird. Diese soll dann in der
+            “IN_PROGRESS”-Spalte stehen. Es muss deutlich (etwa durch Anzeigen mittels
+            Fingerzeig oder Markierung) erkennbar sein, welche Story gewählt ist.</para>
+        </listitem>
+        <listitem>
+          <para>Mit 2 Würfeln würfeln, um die am Tag “geleistete Arbeitszeit” zu ermitteln.
+            <itemizedlist mark='bullet'>
+              <listitem>
+                <para>Verteile die Würfel in der ersten Runde erst nach Erklärung
+                  dieses Regelschrittes.</para>
+              </listitem>
+            </itemizedlist>
+          </para>
+        </listitem>
+        <listitem>
+          <para>Die gewürfelten Augen werden von der verbleibenden Arbeitszeit
+            auf der Story-Karte, an der gerade gearbeitet wird, abgezogen.
+            <itemizedlist mark='bullet'>
+              <listitem>
+                <para>Die Spieler rechnen die verbleibenden Stunden aus.
+                  Das hilft, um Fehler zu vermeiden.</para>
+              </listitem>
+              <listitem>
+                <para>Um das Tracking zu vereinfachen, können die Teilnehmer eine
+                  Haftnotiz auf die Story kleben und darauf die verbleibende
+                  Zeit notieren.</para>
+              </listitem>
+            </itemizedlist>
+          </para>
+        </listitem>
+        <listitem>
+          <para>Ziehe eine Karte aus dem “Chance”-Stapel.
+            <itemizedlist mark='bullet'>
+              <listitem>
+                <para>Verteile die “Chance”-Karten in der ersten Runde nach
+                  Erklärung dieses Regelschrittes.</para>
+              </listitem>
+            </itemizedlist>
+          </para>
+        </listitem>
+        <listitem>
+          <para>Befolge die Anweisung der Karte. Es gibt 3 verschiedene Typen
+            von “Chance”-Karten:
+            <itemizedlist mark='bullet'>
+              <listitem>
+                <para><emphasis role="bold">Event</emphasis> - eine einmalige
+                  Aktionskarte, die unmittelbar ausgeführt und danach
+                  entfernt wird.</para>
+              </listitem>
+              <listitem>
+                <para><emphasis role="bold">Problem</emphasis> - diese
+                  “anhänglichen” Karten blockieren die Fertigstellung der
+                  bearbeiteten Story. All solche Probleme existieren auch
+                  im wahren Leben, so dass Teammitglieder typischerweise
+                  aus ihrer Erfahrung Beispiele und Erlebnisse erzählen
+                  können. Eine Story-Karte kann durch mehrere Problemkarten
+                  blockiert sein.
+                  <itemizedlist mark='bullet'>
+                    <listitem>
+                      <para>Ist eine Story “blockiert”, so darf dennoch
+                        an dieser weitergearbeitet werden, so dass die
+                        Stunden bis auf 0 reduziert werden können.</para>
+                    </listitem>
+                    <listitem>
+                      <para>“Blockiert” bedeutet, dass die Story nicht
+                        in “DONE” geschoben werden darf. Das Team muss
+                        zuvor für jedes Problem der Karte eine passende
+                        Lösung finden.</para>
+                    </listitem>
+                    <listitem>
+                      <para>Manchmal können positive Events helfen, ein
+                        Problem zu lösen :-)</para>
+                    </listitem>
+                  </itemizedlist>
+                </para>
+              </listitem>
+              <listitem>
+                <para><emphasis role="bold">Solution</emphasis> - Eine
+                  Fähigkeit im Team oder eine Aktion, die jederzeit anwendbar
+                  ist, um ein Problem zu lösen. Genau eine Blockade einer
+                  Story wird damit gelöst. Wenn sie angewendet wird, werden
+                  beide Karten entfernt.
+                  <itemizedlist mark='bullet'>
+                    <listitem>
+                      <para>Lösungen können angesammelt werden, wenn es
+                        keine passenden zu lösenden Probleme gibt. Sie
+                        gehören dem ganzen Team.</para>
+                    </listitem>
+                  </itemizedlist>
+                </para>
+              </listitem>
+            </itemizedlist>
+          </para>
+        </listitem>
+        <listitem>
+          <para>Wenn eine Story fertig ist (0 Rest-Stunden und nicht
+            blockiert) wird diese in DONE geschoben.</para>
+        </listitem>
+        <listitem>
+          <para>DONE-Kriterien für eine Story sind:
+            <itemizedlist mark='bullet'>
+              <listitem>
+                <para>Das Team arbeitete mindestens die Anzahl
+                  Stunden, die für die Story geschätzt wurden.</para>
+              </listitem>
+              <listitem>
+                <para>Die Story ist nicht durch ein Problem blockiert.</para>
+              </listitem>
+            </itemizedlist>
+          </para>
+        </listitem>
+      </itemizedlist>
+      <para>Nochmals zusammengefasst, macht jeder Spieler jeden Tag:
+        <itemizedlist mark='bullet'>
+          <listitem>
+            <para>Eine Story auswählen, die bearbeitet werden soll.</para>
+          </listitem>
+          <listitem>
+            <para>Beide Würfel werfen.</para>
+          </listitem>
+          <listitem>
+            <para>Eine “Chance”-Karte ziehen und befolgen.</para>
+          </listitem>
+        </itemizedlist>
+      </para>
+    </section>
+    <section>
+      <title>Sprint-Review und Retrospektive</title>
+      <itemizedlist mark='bullet'>
+        <listitem>
+          <para>Nach 3 Runden ist ein Sprint vorbei.</para>
+        </listitem>
+        <listitem>
+          <para>Jedes Team präsentiert die fertiggestellten
+            Stories (d.h., nur die Stories in der DONE-Spalte)
+            und berechnet als Resultat die Stunden-Summe der
+            DONE-Stories.</para>
+        </listitem>
+        <listitem>
+          <para>Vergleicht das Resultat mit dem initialen
+            geplanten Stunden.</para>
+        </listitem>
+        <listitem>
+          <para>Begutachtet nicht fertiggestellte Stories
+            und besprecht die Gründe dafür. Diskutiert auch,
+            wie diese in den nächsten Sprint mit einfließen.</para>
+        </listitem>
+        <listitem>
+          <para>Reflektiert darüber, wie man im nächsten Sprint
+            besser performed und mehr als Resultat erreichen
+            kann.</para>
+        </listitem>
+      </itemizedlist>
+    </section>
+    <section>
+      <title>Debriefing</title>
+      <para>Zur Nachbesprechung benutzt ihr das Flipchart mit
+        der Visualisierung der Daten “PLAN” und “GESCHAFFT”
+        pro Team.</para>
+      <para>Typische Themen
+        <itemizedlist mark='bullet'>
+          <listitem>
+            <para>“Geplant” vs. “Geschafft”</para>
+          </listitem>
+          <listitem>
+            <para>Velocity-Schwankungen</para>
+          </listitem>
+          <listitem>
+            <para>Stundenschätzung vs. geleistete Arbeit (Original-Schätzungen)</para>
+          </listitem>
+          <listitem>
+            <para>Eingetretene Risiken (technische, personenbezogene, ungeplante Events)</para>
+          </listitem>
+          <listitem>
+            <para>Welche Risiken sind am problematischsten?</para>
+          </listitem>
+          <listitem>
+            <para>Können wir negative Events vorhersagen?</para>
+          </listitem>
+          <listitem>
+            <para>etc…</para>
+          </listitem>
+        </itemizedlist>
+      </para>
+    </section>
+  </chapter>
+
+  <chapter>
+    <title>Bezug des Spielmaterials</title>
+    <section>
+      <title>Bestellung eines gedruckten Spielsatzes</title>
+      <para>Aktuell kann man einen gedruckten Spielsatz der
+        Spielkarten und weiteres Material beziehen unter
+        http://scrumcardgame.com .</para>
+    </section>
+    <section>
+      <title>Print-and-Play</title>
+      <para>Der wahrscheinlich kreativere Ansatz ist die eigene
+        Erstellung des Spielmaterials. Das Design der Spielkarten
+        für das Scrum Card Game ist als PDF oder auch im Quellformat
+        zur eigenen Erstellung des PDF erhältlich.
+        Wenn Blankovisitenkarten aus dem Büro- und Schreibwarenbereich
+        erhältlich sind, dann besteht die Möglichkeit, die Blankokarten
+        mit einem solchen PDF zu bedrucken.
+        Natürlich kann auch auf normales Papier gedruckt und dann
+        die Einzelkarten händisch geschnitten werden. Schwereres Papier
+        erhöht dabei die Haltbarkeit der Karten.
+        Zum besseren Schutz könnten die Karten dann laminiert werden.
+        Die Laminierfolie sollte dabei nicht glänzend gewählt sein.
+        Wenn Karten mit eigenen oder veränderten Texten erstellt
+        werden sollen, bzw. diese sich noch ändern können, ist es dann
+        ein anderer möglicher Ansatz, die gedruckten Karten in
+        Schutzhüllen für einzelne Visitenkarten zu stecken. Die
+        Spielkarten bleiben während des Spiels dann in den
+        Schutzhüllen, können bei Bedarf herausgenommen, verändert,
+        ersetzt und dann wieder in die Schutzhülle gesteckt werden.</para>
+      <mediaobject>
+        <imageobject>
+          <imagedata width="140mm" fileref="media/business_card_pouch.jpg"></imagedata>
+        </imageobject>
+        <caption>
+          <para>Wählt man die Kartengröße von Standardvisitenkarten
+            (85mm x 54mm), so können im Handel erhältliche
+            Schutzhüllen für Visitenkarten genutzt werden.</para>
+        </caption>
+      </mediaobject>
+      <para>Statt Schutzhüllen für Visitenkarten aus dem Büroartikelbereich
+        findet man in Spielgeschäften ähnliche Hüllen für Sammelkartenspiele,
+        englisch Trading Card Games (TCGs). TCG-Spieler schützen oft ihre
+        Karten mit Kartenhüllen (englisch Card Sleeves) oder Kartenschutz
+        (englisch Card Protectors). Diejenigen, die Standardvisitenkarten
+        entsprächen, werden als Standard American Board Game
+        Sleeves (56mm x 87mm) bezeichnet.</para>
+      <para>Üblicher für TCGs ist die sogenannte Standard Card Size
+        (88mm x 63mm) mit Sleeve Protectors, die ein wenig größer als die
+        Karte selbst sind (91mm x 66mm). Gibt es diese in verschiedenen
+        Ausführungen, ist es auch hier ratsam, nicht glänzende Kartenhüllen
+        zu verwenden.</para>
+    </section>
+  </chapter>
+
+  <chapter>
+    <title>Über die Autoren</title>
+    <note>Bitte beachten, dass die Autorenbeschreibungen in
+      unterschiedlichen Sprachen wiedergegeben sein können.</note>
+    <section>
+      <title>Timofey Yevgrashyn</title>
+      <para>I’m an experienced Agile Manager with consulting, coaching
+        and training expertise. My personal experience in IT industry
+        starts back at 1998, from which more than 12 years I had been
+        managing effective software teams and most of the time with
+        Agile methods. Over last eight years, I am sharing the knowledge
+        and experience as a Trainer, Agile Coach, and Consultant.</para>
+      <para>I have proven track record of launching and leading
+        Agile/Lean transformations that lead to aligning delivery with
+        business goals. By 2016 I have helped to more than 50 teams
+        from over 10 countries, done about 3000 hours of Agile training
+        for over 4000 people. My specialties: Agile and Lean based
+        processes, Agile Product Management, Organizational Culture
+        transformation, Leadership Coaching.</para>
+      <para>My work is always pragmatic and practical and training is
+        more an interactive workshop than just a theory. I’m a big fan
+        of education with games and is the author of several
+        Agile games.</para>
+      <para>Since 2009, I write for my Russian-speaking blog “The
+        Improved Methods” (http://tim.com.ua) to popularize Agile/Lean
+        mindset and methods on Eastern Europe. Also, I’m an experienced
+        public speaker participated in international and local
+        conferences. You can find the archive of slides on my site. Or
+        simply invite me to your conference for the talk or
+        a workshop. :-)</para>
+    </section>
+    <section>
+      <title>Nils Bernert</title>
+      <para>Meine Haupttätigkeit ist Agiles Coaching mit Fokus auf
+        skalierstes agiles Umfeld bei Valtech Deutschland in München
+        für Kunden im In- und Ausland.</para>
+      <para>Nach dem Studium bin ich seit 2001 in der IT und unterstütze
+        bereits seit 2007 Teams und Organisationen mit Scrum &amp; agile
+        Methoden im skalierten Umfeld.</para>
+      <para>Dazu halte ich Scrum Trainings, Scrum Einführungen und
+        Workshops in Deutschland und auch europaweit.</para>
+      <para>Als Lean Startup Enthusiast bin ich ein Verfechter des
+        Einsatzes von Lean Startup Methoden auch im Corporate Umfeld
+        zur Produktentwicklung und Innovation. Ich bin als Mentor und
+        Organisator der Lean Startup Machine Munich aktiv.</para>
+    </section>
+    <section>
+      <title>Oliver Merkel</title>
+      <para>I am an Electrical Engineer and Computer Science guy.
+        Currently not really in need for any more sophisticated advertising.
+        Still if you appreciate my work then tell me or better tell others
+        about it. All hands person. Actively developing in embedded systems
+        writing boot scripts, boot loaders, hardware abstraction,
+        driver development, up to application development and
+        architectural stuff in various team sizes and set ups.
+        Doing stuff professionally like holding trainings, consulting,
+        live agile methods, doing management, project and team leads,
+        and developing long enough so to know what I am doing.
+        There might be ways to bribe me. Be creative... :-)</para>
+    </section>
+  </chapter>
+</book>

@@ -22,9 +22,9 @@
     </authorgroup>
     <copyright>
       <year>2010, 2016</year>
-      <holder>Timofey (Tim) Yevgrashyn, All rights reserved.</holder>
+      <holder>Timofey (Tim) Yevgrashyn, Oliver Merkel, All rights reserved.</holder>
     </copyright>
-    <releaseinfo>Version 3.1, July 2016, see http://scrumcardgame.com for updates and additional materials.</releaseinfo>
+    <releaseinfo>Version 3.1.1, November 2016, see http://scrumcardgame.com for updates and additional materials.</releaseinfo>
     <legalnotice>
       <para>SCRUM CARD GAME by Timofey (Tim) Yevgrashyn is licensed under a Creative Commons
         Attribution-ShareAlike 4.0 International License.</para>
@@ -88,7 +88,7 @@
         </listitem>
         <listitem>
           <para>
-            Flipchart
+            Flip chart
           </para>
         </listitem>
         <listitem>
@@ -108,8 +108,17 @@
                 <para>Cards with stories forming the “Backlog” deck</para>
               </listitem>
               <listitem>
-                <para>Backlog is prioritized (sequence number in top corner) and estimated
-                 (hours in bottom corner)</para>
+                <para>Backlog is prioritized by
+                 <itemizedlist mark='opencircle'>
+                    <listitem>
+                      <para>sequence number in top left corner and</para>
+                    </listitem>
+                    <listitem>
+                      <para>estimated hours to work on the story in bottom
+                        right corner.</para>
+                    </listitem>
+                  </itemizedlist>
+                </para>
               </listitem>
               <listitem>
                 <para>3 days per iteration (there will be maximum 3 iterations)</para>
@@ -124,7 +133,7 @@
                       <para>Work within iteration</para>
                     </listitem>
                     <listitem>
-                      <para>Sprint Review + Retrospective</para>
+                      <para>Sprint Review and Retrospective</para>
                     </listitem>
                   </orderedlist>
                 </para>
@@ -133,12 +142,24 @@
           </para>
         </listitem>
         <listitem>
-          <para>Make the group arrange a simple Task Board by marking TODO, IN PROGRESS,
-            DONE columns with simple sticky notes to visualize their state.
+          <para>Make the group arrange a simple Task Board by marking chart columns
+            <itemizedlist mark='opencircle'>
+              <listitem>
+                <para>TODO,</para>
+              </listitem>
+              <listitem>
+                <para>IN PROGRESS and</para>
+              </listitem>
+              <listitem>
+                <para>DONE.</para>
+              </listitem>
+            </itemizedlist>
           </para>
+          <para>Simple sticky notes could be used on a table to visualize
+            column headers and their states here.</para>
         </listitem>
         <listitem>
-          <para>Prepare a flipchart list with visualization of PLAN and ACTUAL columns for each
+          <para>Prepare a flip chart list with visualization of PLAN and ACTUAL columns for each
             team in play.</para>
         </listitem>
       </itemizedlist>
@@ -156,7 +177,8 @@
                   Allow them to make even optimistic commitment :)</para>
               </listitem>
               <listitem>
-                <para>To perform 2nd and 3rd planning you ask teams to use historical data.</para>
+                <para>To perform 2nd and 3rd planning you ask teams to take previous
+                  iteration's data into consideration.</para>
               </listitem>
             </itemizedlist>
           </para>
@@ -194,15 +216,25 @@
         </listitem>
         <listitem>
           <para>Deduct number on the dice from remaining hours on the card (s)he “works on”
-○ Advise players to calculate remaining as it helps to avoid mistakes
-○ To simplify tracking participants can stick a post-it on a card and write
-remaining time there
+            <itemizedlist mark='bullet'>
+              <listitem>
+                <para>Advise players to calculate remaining as it helps to avoid mistakes</para>
+              </listitem>
+              <listitem>
+                <para>To simplify tracking participants can stick a post-it on a card and
+                  write remaining time there</para>
+              </listitem>
+            </itemizedlist>
           </para>
         </listitem>
         <listitem>
-          <para>Pull the card from the “Chance” deck
-○ Hand over the “Chance” deck on the first round right after explaining this
-step
+          <para>Draw a card from the “Chance” deck
+            <itemizedlist mark='bullet'>
+              <listitem>
+                <para>Hand over the “Chance” deck on the first round right after
+                  explaining this step</para>
+              </listitem>
+            </itemizedlist>
           </para>
         </listitem>
         <listitem>
@@ -218,16 +250,17 @@ step
                   issues are blocking the Story that the player was
                   “working on”. Each problem is a case taken from the real
                   life, a team could bring examples or details into each
-                  Problem from their experience.
+                  Problem from their experience. A Story card can be blocked
+                  by several Problem cards.
                   <itemizedlist mark='bullet'>
-                    <listitem>
-                      <para>Blocking means the team can’t move the story
-                        into DONE state, they have to find a Solution for
-                        the kind of problems stated on a card.</para>
-                    </listitem>
                     <listitem>
                       <para>Blocking doesn’t prevent from continue work
                         on a Story (deducting hours until zero).</para>
+                    </listitem>
+                    <listitem>
+                      <para>Blocking means the team can’t move the story
+                        into DONE state. They have to find a Solution for
+                        each problem stated on a card.</para>
                     </listitem>
                     <listitem>
                       <para>Sometimes, positive Events could also
@@ -281,13 +314,13 @@ step
             <para>Throw two dice</para>
           </listitem>
           <listitem>
-            <para>Pick a Chance card</para>
+            <para>Draw a Chance card and follow its instruction.</para>
           </listitem>
         </itemizedlist>
       </para>
     </section>
     <section>
-      <title>Sprint Review + Retrospective</title>
+      <title>Sprint Review and Retrospective</title>
       <itemizedlist mark='bullet'>
         <listitem>
           <para>After each player's 3rd turn the Sprint is over.</para>
@@ -313,7 +346,7 @@ step
     </section>
     <section>
       <title>Debriefing</title>
-      <para>To start debriefing you should bring the flipchart(s) in front of the
+      <para>To start debriefing you should bring the flip chart(s) in front of the
         audience to visualize all Planned and Actual data for each of the three
         sprints. Here are some topics to adress
         <itemizedlist mark='bullet'>
