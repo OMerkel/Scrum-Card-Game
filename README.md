@@ -19,8 +19,7 @@ the cards.
 * <a href='scrum_card_game-rules/scrum_card_game-rules-de.pdf'>Get just the rules in German!</a>
 * The repository's root holds subdirectories with names reflecting which card size related files can be found in there.
 
-The card designs of the Scrum Card Game are available in PDF or even the source
-format to generate the PDF files on your own. If you can get blank business cards
+The card designs of the Scrum Card Game are available in PDF and SVG. If you can get blank business cards
 available as office supplies then you can print the PDF onto the blank cards.
 Another option is to print the cards on normal paper and then cut the cards manually. Heavy
 weight paper shall be used for enhanced durability. For better protection the cards could be laminated.
@@ -45,14 +44,12 @@ More common and popular for TCGs is a so called Standard Card Size
 bigger than that (91mm x 66mm). In case you can get these in different
 variants then non glare sleeves are recommended.
 
-The cards are provided in editable form as LibreOffice documents, too.
-
 ## Links
 
 * http://scrumcardgame.com/scrum-card-game-rules
 * http://docbook.org
 * https://maven.apache.org
-* http://www.libreoffice.org
+* https://www.python.org/
 
 ## Legal / License
 
