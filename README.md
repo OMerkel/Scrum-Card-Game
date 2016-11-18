@@ -49,7 +49,7 @@ variants then non glare sleeves are recommended.
 * http://scrumcardgame.com/scrum-card-game-rules
 * http://docbook.org
 * https://maven.apache.org
-* https://www.python.org/
+* https://www.python.org
 
 ## Legal / License
 
