@@ -210,7 +210,7 @@ class PageLayouter:
 
   def svg(self):
     now = time.strftime("%c")
-    style = "style='fill:none;stroke:#ccc;stroke-width:1;'"
+    style = "style='fill:#fff;stroke:#ccc;stroke-width:1;'"
     svgRect = ''
     for y in self.pos['y']:
       for x in self.pos['x']:
