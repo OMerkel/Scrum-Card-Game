@@ -1,81 +1,86 @@
-<?xml version='1.0' encoding='UTF-8' standalone='no'?><svg    xmlns:dc='http://purl.org/dc/elements/1.1/'
+<?xml version='1.0' encoding='UTF-8' standalone='no'?><svg xmlns:dc='http://purl.org/dc/elements/1.1/'
 xmlns:cc='http://creativecommons.org/ns#'
 xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
 xmlns:svg='http://www.w3.org/2000/svg'
 xmlns='http://www.w3.org/2000/svg'
 width='210mm' height='297mm' version='1.1' viewBox='0 0 2100 2970'>
-  <metadata>
-    <rdf:RDF>
-      <cc:Work
-         rdf:about='Playing cards for the Scrum Card Game'>
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource='http://purl.org/dc/dcmitype/StillImage' />
-        <dc:title>Playing cards for the Scrum Card Game</dc:title>
-        <cc:license
-           rdf:resource='http://creativecommons.org/licenses/by-sa/4.0' />
-        <dc:date>Sat Nov 19 22:59:09 2016</dc:date>
-        <dc:creator>
-          <cc:Agent>
-            <dc:title>Oliver Merkel</dc:title>
-          </cc:Agent>
-        </dc:creator>
-        <dc:rights>
-          <cc:Agent>
-            <dc:title>
-              cc-by-sa-4.0.
-              All rights reserved.
-              All logos, brands, and trademarks mentioned belong to their respective owners.
-            </dc:title>
-          </cc:Agent>
-        </dc:rights>
-        <dc:publisher>
-          <cc:Agent>
-            <dc:title>Oliver Merkel</dc:title>
-          </cc:Agent>
-        </dc:publisher>
-        <dc:source>https://github.com/OMerkel/Scrum-Card-Game</dc:source>
-        <dc:relation>https://github.com/OMerkel/Scrum-Card-Game</dc:relation>
-        <dc:language>en</dc:language>
-        <dc:contributor>
-          <cc:Agent>
-            <dc:title>
+<metadata>
+  <rdf:RDF>
+    <cc:Work
+       rdf:about='Playing cards for the Scrum Card Game'>
+      <dc:format>image/svg+xml</dc:format>
+      <dc:type
+         rdf:resource='http://purl.org/dc/dcmitype/StillImage' />
+      <dc:title>Playing cards for the Scrum Card Game</dc:title>
+      <cc:license
+         rdf:resource='http://creativecommons.org/licenses/by-sa/4.0' />
+      <dc:date>Wed Nov 23 18:21:14 2016</dc:date>
+      <dc:creator>
+        <cc:Agent>
+          <dc:title>Oliver Merkel</dc:title>
+        </cc:Agent>
+      </dc:creator>
+      <dc:rights>
+        <cc:Agent>
+          <dc:title>
+            cc-by-sa-4.0.
+            All rights reserved.
+            All logos, brands, and trademarks mentioned belong to their respective owners.
+          </dc:title>
+        </cc:Agent>
+      </dc:rights>
+      <dc:publisher>
+        <cc:Agent>
+          <dc:title>Oliver Merkel</dc:title>
+        </cc:Agent>
+      </dc:publisher>
+      <dc:source>https://github.com/OMerkel/Scrum-Card-Game</dc:source>
+      <dc:relation>https://github.com/OMerkel/Scrum-Card-Game</dc:relation>
+      <dc:language>en</dc:language>
+      <dc:contributor>
+        <cc:Agent>
+          <dc:title>
 Oliver Merkel
 Timofey Yevgrashyn
 Nils Bernert
-            </dc:title>
-          </cc:Agent>
-        </dc:contributor>
-        <dc:description>Playing cards for the Scrum Card Game as available on https://github.com/OMerkel/Scrum-Card-Game</dc:description>
-        <dc:subject>
-          <rdf:Bag>
-            <rdf:li>SCRUM</rdf:li>
-            <rdf:li>agile</rdf:li>
-            <rdf:li>development</rdf:li>
-            <rdf:li>game</rdf:li>
-            <rdf:li>simulation</rdf:li>
-            <rdf:li>lean</rdf:li>
-            <rdf:li>card game</rdf:li>
-            <rdf:li>training</rdf:li>
-            <rdf:li>workshop</rdf:li>
-          </rdf:Bag>
-        </dc:subject>
-      </cc:Work>
-      <cc:License
-         rdf:about='http://creativecommons.org/licenses/by-sa/4.0'>
-        <cc:permits
-           rdf:resource='http://creativecommons.org/ns#Reproduction' />
-        <cc:permits
-           rdf:resource='http://creativecommons.org/ns#Distribution' />
-        <cc:requires
-           rdf:resource='http://creativecommons.org/ns#Notice' />
-        <cc:requires
-           rdf:resource='http://creativecommons.org/ns#Attribution' />
-        <cc:permits
-           rdf:resource='http://creativecommons.org/ns#DerivativeWorks' />
-        <cc:requires
-           rdf:resource='http://creativecommons.org/ns#ShareAlike' />
-      </cc:License>
-    </rdf:RDF>
-  </metadata>
+          </dc:title>
+        </cc:Agent>
+      </dc:contributor>
+      <dc:description>Playing cards for the Scrum Card Game as available on https://github.com/OMerkel/Scrum-Card-Game</dc:description>
+      <dc:subject>
+        <rdf:Bag>
+          <rdf:li>SCRUM</rdf:li>
+          <rdf:li>agile</rdf:li>
+          <rdf:li>development</rdf:li>
+          <rdf:li>game</rdf:li>
+          <rdf:li>simulation</rdf:li>
+          <rdf:li>lean</rdf:li>
+          <rdf:li>card game</rdf:li>
+          <rdf:li>training</rdf:li>
+          <rdf:li>workshop</rdf:li>
+        </rdf:Bag>
+      </dc:subject>
+    </cc:Work>
+    <cc:License
+       rdf:about='http://creativecommons.org/licenses/by-sa/4.0'>
+      <cc:permits
+         rdf:resource='http://creativecommons.org/ns#Reproduction' />
+      <cc:permits
+         rdf:resource='http://creativecommons.org/ns#Distribution' />
+      <cc:requires
+         rdf:resource='http://creativecommons.org/ns#Notice' />
+      <cc:requires
+         rdf:resource='http://creativecommons.org/ns#Attribution' />
+      <cc:permits
+         rdf:resource='http://creativecommons.org/ns#DerivativeWorks' />
+      <cc:requires
+         rdf:resource='http://creativecommons.org/ns#ShareAlike' />
+    </cc:License>
+  </rdf:RDF>
+</metadata>
+<g transform='translate( 10, 105.0)'>
+<rect x='10' y='-25' width='10' height='10' style='fill:#f00;stroke:none;' />
+<rect x='20' y='-25' width='10' height='10' style='fill:#0f0;stroke:none;' />
+<rect x='30' y='-25' width='10' height='10' style='fill:#00f;stroke:none;' />
+</g>
 <g transform='translate(10,105.0)'><rect x='0' y='0' width='1040' height='690' style='fill:#fff;stroke:#ccc;stroke-width:1;' /><rect x='0' y='0' width='1040' height='207' style='fill:#789;stroke:none;stroke-width:0;' /><g transform='scale(1.0)'><text x="1020.0" y="200"><tspan x="1020.0" y="200" style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:128px;line-height:100%;font-family:Arial;-inkscape-font-specification:'Arial, Bold';text-align:end;writing-mode:lr;text-anchor:end;fill:#fff">EVENT</tspan></text><circle cx='150' cy='100' r='80' style='fill:none;stroke:#fff;stroke-width:14;'/><circle cx='122' cy='70' r='12' style='fill:#fff;stroke:none;stroke-width:0;'/><circle cx='178' cy='70' r='12' style='fill:#fff;stroke:none;stroke-width:0;'/><path d='m 110,102 c 0,52 80,52 80,0' style='fill:none;stroke:#fff;stroke-width:8;'/><switch><foreignObject x="50" y="170" width="950.0" height="470"><p xmlns="http://www.w3.org/1999/xhtml" style="font-style:normal;font-weight:normal;font-size:56px;line-height:120%;font-family:Sans,Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000;stroke:none;"><p><b>DOING WELL</b></p>Things are going incredibly well. Add 4 to the last roll.</p></foreignObject><text x="50" y="220">Your SVG viewer cannot display html.</text></switch></g></g><g transform='translate(1050,105.0)'><rect x='0' y='0' width='1040' height='690' style='fill:#fff;stroke:#ccc;stroke-width:1;' /><rect x='0' y='0' width='1040' height='207' style='fill:#789;stroke:none;stroke-width:0;' /><g transform='scale(1.0)'><text x="1020.0" y="200"><tspan x="1020.0" y="200" style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:128px;line-height:100%;font-family:Arial;-inkscape-font-specification:'Arial, Bold';text-align:end;writing-mode:lr;text-anchor:end;fill:#fff">EVENT</tspan></text><circle cx='150' cy='100' r='80' style='fill:none;stroke:#fff;stroke-width:14;'/><circle cx='122' cy='70' r='12' style='fill:#fff;stroke:none;stroke-width:0;'/><circle cx='178' cy='70' r='12' style='fill:#fff;stroke:none;stroke-width:0;'/><path d='m 110,102 c 0,52 80,52 80,0' style='fill:none;stroke:#fff;stroke-width:8;'/><switch><foreignObject x="50" y="170" width="950.0" height="470"><p xmlns="http://www.w3.org/1999/xhtml" style="font-style:normal;font-weight:normal;font-size:56px;line-height:120%;font-family:Sans,Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000;stroke:none;"><p><b>VISIBLE EFFORT</b></p>The boss acknowledges your effort. You may add 3 points to the previous result.</p></foreignObject><text x="50" y="220">Your SVG viewer cannot display html.</text></switch></g></g><g transform='translate(10,795.0)'><rect x='0' y='0' width='1040' height='690' style='fill:#fff;stroke:#ccc;stroke-width:1;' /><rect x='0' y='0' width='1040' height='207' style='fill:#789;stroke:none;stroke-width:0;' /><g transform='scale(1.0)'><text x="1020.0" y="200"><tspan x="1020.0" y="200" style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:128px;line-height:100%;font-family:Arial;-inkscape-font-specification:'Arial, Bold';text-align:end;writing-mode:lr;text-anchor:end;fill:#fff">EVENT</tspan></text><circle cx='150' cy='100' r='80' style='fill:none;stroke:#fff;stroke-width:14;'/><circle cx='122' cy='70' r='12' style='fill:#fff;stroke:none;stroke-width:0;'/><circle cx='178' cy='70' r='12' style='fill:#fff;stroke:none;stroke-width:0;'/><path d='m 110,102 c 0,52 80,52 80,0' style='fill:none;stroke:#fff;stroke-width:8;'/><switch><foreignObject x="50" y="170" width="950.0" height="470"><p xmlns="http://www.w3.org/1999/xhtml" style="font-style:normal;font-weight:normal;font-size:56px;line-height:120%;font-family:Sans,Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000;stroke:none;"><p><b>FAIRY</b></p>A fairy helped you. A card in progress is instantly finished.</p></foreignObject><text x="50" y="220">Your SVG viewer cannot display html.</text></switch></g></g><g transform='translate(1050,795.0)'><rect x='0' y='0' width='1040' height='690' style='fill:#fff;stroke:#ccc;stroke-width:1;' /><rect x='0' y='0' width='1040' height='207' style='fill:#789;stroke:none;stroke-width:0;' /><g transform='scale(1.0)'><text x="1020.0" y="200"><tspan x="1020.0" y="200" style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:128px;line-height:100%;font-family:Arial;-inkscape-font-specification:'Arial, Bold';text-align:end;writing-mode:lr;text-anchor:end;fill:#fff">EVENT</tspan></text><circle cx='150' cy='100' r='80' style='fill:none;stroke:#fff;stroke-width:14;'/><circle cx='122' cy='70' r='12' style='fill:#fff;stroke:none;stroke-width:0;'/><circle cx='178' cy='70' r='12' style='fill:#fff;stroke:none;stroke-width:0;'/><path d='m 110,142 c 0,-52 80,-52 80,0' style='fill:none;stroke:#fff;stroke-width:8;'/><switch><foreignObject x="50" y="170" width="950.0" height="470"><p xmlns="http://www.w3.org/1999/xhtml" style="font-style:normal;font-weight:normal;font-size:56px;line-height:120%;font-family:Sans,Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000;stroke:none;"><p><b>SICK AT HOME</b></p>You are sick at home. Skip your next turn.</p></foreignObject><text x="50" y="220">Your SVG viewer cannot display html.</text></switch></g></g><g transform='translate(10,1485.0)'><rect x='0' y='0' width='1040' height='690' style='fill:#fff;stroke:#ccc;stroke-width:1;' /><rect x='0' y='0' width='1040' height='207' style='fill:#789;stroke:none;stroke-width:0;' /><g transform='scale(1.0)'><text x="1020.0" y="200"><tspan x="1020.0" y="200" style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:128px;line-height:100%;font-family:Arial;-inkscape-font-specification:'Arial, Bold';text-align:end;writing-mode:lr;text-anchor:end;fill:#fff">EVENT</tspan></text><circle cx='150' cy='100' r='80' style='fill:none;stroke:#fff;stroke-width:14;'/><circle cx='122' cy='70' r='12' style='fill:#fff;stroke:none;stroke-width:0;'/><circle cx='178' cy='70' r='12' style='fill:#fff;stroke:none;stroke-width:0;'/><path d='m 110,142 c 0,-52 80,-52 80,0' style='fill:none;stroke:#fff;stroke-width:8;'/><switch><foreignObject x="50" y="170" width="950.0" height="470"><p xmlns="http://www.w3.org/1999/xhtml" style="font-style:normal;font-weight:normal;font-size:56px;line-height:120%;font-family:Sans,Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000;stroke:none;"><p><b>HEALTH PROBLEM</b></p>You have caught a cold. Skip your next turn.</p></foreignObject><text x="50" y="220">Your SVG viewer cannot display html.</text></switch></g></g><g transform='translate(1050,1485.0)'><rect x='0' y='0' width='1040' height='690' style='fill:#fff;stroke:#ccc;stroke-width:1;' /><rect x='0' y='0' width='1040' height='207' style='fill:#789;stroke:none;stroke-width:0;' /><g transform='scale(1.0)'><text x="1020.0" y="200"><tspan x="1020.0" y="200" style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:128px;line-height:100%;font-family:Arial;-inkscape-font-specification:'Arial, Bold';text-align:end;writing-mode:lr;text-anchor:end;fill:#fff">EVENT</tspan></text><circle cx='150' cy='100' r='80' style='fill:none;stroke:#fff;stroke-width:14;'/><circle cx='122' cy='70' r='12' style='fill:#fff;stroke:none;stroke-width:0;'/><circle cx='178' cy='70' r='12' style='fill:#fff;stroke:none;stroke-width:0;'/><path d='m 110,142 c 0,-52 80,-52 80,0' style='fill:none;stroke:#fff;stroke-width:8;'/><switch><foreignObject x="50" y="170" width="950.0" height="470"><p xmlns="http://www.w3.org/1999/xhtml" style="font-style:normal;font-weight:normal;font-size:56px;line-height:120%;font-family:Sans,Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000;stroke:none;"><p><b>HARD DRIVE CRASHED</b></p>Hard drive crashed. Remove all progress from a card in progress.</p></foreignObject><text x="50" y="220">Your SVG viewer cannot display html.</text></switch></g></g><g transform='translate(10,2175.0)'><rect x='0' y='0' width='1040' height='690' style='fill:#fff;stroke:#ccc;stroke-width:1;' /><rect x='0' y='0' width='1040' height='207' style='fill:#789;stroke:none;stroke-width:0;' /><g transform='scale(1.0)'><text x="1020.0" y="200"><tspan x="1020.0" y="200" style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:128px;line-height:100%;font-family:Arial;-inkscape-font-specification:'Arial, Bold';text-align:end;writing-mode:lr;text-anchor:end;fill:#fff">EVENT</tspan></text><circle cx='150' cy='100' r='80' style='fill:none;stroke:#fff;stroke-width:14;'/><circle cx='122' cy='70' r='12' style='fill:#fff;stroke:none;stroke-width:0;'/><circle cx='178' cy='70' r='12' style='fill:#fff;stroke:none;stroke-width:0;'/><path d='m 110,142 c 0,-52 80,-52 80,0' style='fill:none;stroke:#fff;stroke-width:8;'/><switch><foreignObject x="50" y="170" width="950.0" height="470"><p xmlns="http://www.w3.org/1999/xhtml" style="font-style:normal;font-weight:normal;font-size:56px;line-height:120%;font-family:Sans,Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000;stroke:none;"><p><b>EMERGENCY CALL</b></p>An emergency call informs about an incident in the office. Everyone skips next turn.</p></foreignObject><text x="50" y="220">Your SVG viewer cannot display html.</text></switch></g></g><g transform='translate(1050,2175.0)'><rect x='0' y='0' width='1040' height='690' style='fill:#fff;stroke:#ccc;stroke-width:1;' /><rect x='0' y='0' width='1040' height='207' style='fill:#789;stroke:none;stroke-width:0;' /><g transform='scale(1.0)'><text x="1020.0" y="200"><tspan x="1020.0" y="200" style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:128px;line-height:100%;font-family:Arial;-inkscape-font-specification:'Arial, Bold';text-align:end;writing-mode:lr;text-anchor:end;fill:#fff">EVENT</tspan></text><circle cx='150' cy='100' r='80' style='fill:none;stroke:#fff;stroke-width:14;'/><circle cx='122' cy='70' r='12' style='fill:#fff;stroke:none;stroke-width:0;'/><circle cx='178' cy='70' r='12' style='fill:#fff;stroke:none;stroke-width:0;'/><path d='m 110,142 c 0,-52 80,-52 80,0' style='fill:none;stroke:#fff;stroke-width:8;'/><switch><foreignObject x="50" y="170" width="950.0" height="470"><p xmlns="http://www.w3.org/1999/xhtml" style="font-style:normal;font-weight:normal;font-size:56px;line-height:120%;font-family:Sans,Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000;stroke:none;"><p><b>BUSINESS TRIP</b></p>You are sent on a business trip. Skip next turn.</p></foreignObject><text x="50" y="220">Your SVG viewer cannot display html.</text></switch></g></g></svg>
