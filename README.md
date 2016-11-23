@@ -13,11 +13,8 @@ cards to print and play the game. Different variants of card
 sizes are available. To make the cards durable you could laminate
 the cards.
 
-* <a href='https://github.com/OMerkel/Scrum-Card-Game/releases'>Get complete rules and cards (88x63mm) in English!</a>
-* <a href='scrum_card_game-rules/scrum_card_game-rules.pdf'>Get just the rules in English!</a>
-* <a href='https://github.com/OMerkel/Scrum-Card-Game/releases'>Get complete rules and cards (88x63mm) in German!</a>
-* <a href='scrum_card_game-rules/scrum_card_game-rules-de.pdf'>Get just the rules in German!</a>
-* The repository's root holds subdirectories with names reflecting which card size related files can be found in there.
+* <a href='https://github.com/OMerkel/Scrum-Card-Game/releases'>Get the latest release in English or German!</a>
+* Additionally the repository's root holds subdirectories with names reflecting which card size related files can be found in there.
 
 The card designs of the Scrum Card Game are available in PDF and SVG. If you can get blank business cards
 available as office supplies then you can print the PDF onto the blank cards.
