@@ -305,7 +305,7 @@
           </para>
         </listitem>
       </itemizedlist>
-      <para>Once again, at every “day” each player does follow:
+      <para>Summarized: a player's turn consists of the following steps per simulated day:
         <itemizedlist mark='bullet'>
           <listitem>
             <para>Choose a card to “work on”</para>

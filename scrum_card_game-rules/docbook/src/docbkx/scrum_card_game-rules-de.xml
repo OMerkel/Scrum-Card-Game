@@ -331,7 +331,7 @@
           </para>
         </listitem>
       </itemizedlist>
-      <para>Nochmals zusammengefasst, macht jeder Spieler jeden Tag:
+      <para>Nochmals zusammengefasst, besteht ein Zug eines Spielers aus folgenden Schritten pro simuliertem Tag:
         <itemizedlist mark='bullet'>
           <listitem>
             <para>Eine Story auswählen, die bearbeitet werden soll.</para>
