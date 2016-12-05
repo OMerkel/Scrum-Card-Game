@@ -41,12 +41,89 @@ More common and popular for TCGs is a so called Standard Card Size
 bigger than that (91mm x 66mm). In case you can get these in different
 variants then non glare sleeves are recommended.
 
+## How to...
+
+In case you want to generate components like rules text or the cards separately or on your own.
+
+### Generate the Rules as PDF
+
+Rules are maintained in [Docbook](http://docbook.org) format.
+Related files can be found in `Scrum-Card-Game/scrum_card_game-rules/docbook/src/docbkx` .
+The simplest way to generate the PDFs from Docbook using this repository is to install and use [Maven](https://maven.apache.org).
+
+Invocation to generate the PDFs from Docbook looks like
+
+```
+cd scrum_card_game-rules/docbook
+mvn docbkx:generate-pdf
+```
+
+### Generate the Playing Cards
+
+To just generate the cards with already existing card defintions [Python](https://www.python.org) is needed.
+
+```
+cd cardgenerator
+python cardgenerator.py
+```
+
+The cards get generated in the same directory as [SVG](https://www.w3.org/Graphics/SVG)
+(Scalable Vector Graphics, W3C standard).
+
+### Modify the Playing Cards
+
+Cards are maintained in [Python](https://www.python.org) files. Python script files are separated
+from files that hold the card descriptions. Although the card description files are simple
+Python files, too. This is to not mix data with scripts.
+
+The card descriptions can be found in `cardgenerator/cardcontent.py` covering all languages.
+The syntax follows Python [JSON](http://json.org) (JavaScript Object Notation,
+ECMA-404 The JSON Data Interchange Standard) format.
+
+Card types supported by the `cardgenerator.py` are
+
+1. 'type' : 'story'
+2. 'type' : 'event'
+3. 'type' : 'solution'
+4. 'type' : 'problem'
+
+Event cards describe positive, neutral, or negative impact on the game result by smilies.
+Smilies supported by the `cardgenerator.py` are
+
+1. 'smiley' : ':-)'
+2. 'smiley' : ':-|'
+3. 'smiley' : ':-('
+
+Titles and text fields should stay at a reasonable text length.
+
+### Concatenate PDFs into one PDF if needed
+
+A possible cover page can be found as `scrum_card_game-rules/scrum_card_game-cover.pdf`
+
+SVGs can be converted to PDF or PS (Postscript) in various ways and with various tools.
+
+In case you insist to have rules and cards in a single combined PDF file a free tool
+like [GhostScript](http://ghostscript.com) could be used.
+
+Concatenating multiple PDFs into a combined one could be achieved as follows
+
+```
+gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=scrum_card_game-104x69mm-en.pdf scrum_card_game-cover.pdf scrum_card_game-rules-en.pdf scrum_card_game-104x69mm-en-0_svg.pdf scrum_card_game-104x69mm-en-1_svg.pdf...
+```
+
+Here the PDFs `scrum_card_game-cover.pdf scrum_card_game-rules-en.pdf scrum_card_game-104x69mm-en-0_svg.pdf scrum_card_game-104x69mm-en-1_svg.pdf...` get concatenated into `scrum_card_game-104x69mm-en.pdf`.
+
+Windows users might find GhostScript versions in 32bit and 64bit as `gswin32.exe` and `gswin64.exe` with similar command line arguments in place.
+
 ## Links
 
 * http://scrumcardgame.com/scrum-card-game-rules
 * http://docbook.org
 * https://maven.apache.org
 * https://www.python.org
+* http://json.org
+* https://www.w3.org/Graphics/SVG
+* http://ghostscript.com
 
 ## Legal / License
 
