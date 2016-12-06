@@ -36,6 +36,10 @@ sleeves or card protectors. The ones that match the business cards
 in size are called Standard American Board Game Sleeves
 (87mm x 56mm, 3-1/2 x 2-1/4 inch).
 
+<table><tbody>
+<tr><td><img alt='Using Standard Card Size Sleeves and Deck Box' src='res/Standard Card Size Sleeves and Deck Box.jpg' width='80%' /></td><td>Using Standard Card Size Sleeves and Deck Box,<br /><a rel='license' href='http://creativecommons.org/licenses/by-sa/4.0'><img alt='Creative Commons License' style='border-width:0' src='res/cc_by_sa-88x31.png' /></a>This image is licensed under a <a rel='license' href='http://creativecommons.org/licenses/by-sa/4.0'>Creative Commons Attribution-ShareAlike 4.0 International License</a>.</td></tr>
+</tbody></table>
+
 More common and popular for TCGs is a so called Standard Card Size
 (88mm x 63mm, 3-1/2 x 2-1/2 inch) with sleeve protectors a bit
 bigger than that (91mm x 66mm). In case you can get these in different
