@@ -160,7 +160,7 @@ shall be generated. It shall look like:
 ```
 
 If a preferred language is missing simply add it. If a language is intended to be skipped
-then remove it.
+then remove it. Any information missing? Just ask... You are welcome.
 
 ### Concatenate PDFs into one PDF if needed
 
