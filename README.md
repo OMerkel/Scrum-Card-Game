@@ -70,11 +70,12 @@ python cardgenerator.py
 The cards get generated in the same directory as [SVG](https://www.w3.org/Graphics/SVG)
 (Scalable Vector Graphics, W3C standard).
 
-### Modify the Playing Cards
+### Modify the existing Playing Cards or create new ones
 
 Cards are maintained in [Python](https://www.python.org) files. Python script files are separated
-from files that hold the card descriptions. Although the card description files are simple
-Python files, too. This is to not mix data with scripts.
+from files that hold the card description data. This split of script files and pure data files is
+done although the card description data files are simple Python files, too.
+Thus this is done to not mix data with scripts.
 
 The card descriptions can be found in `cardgenerator/cardcontent.py` covering all languages.
 The syntax follows Python [JSON](http://json.org) (JavaScript Object Notation,
@@ -95,6 +96,71 @@ Smilies supported by the `cardgenerator.py` are
 3. 'smiley' : ':-('
 
 Titles and text fields should stay at a reasonable text length.
+
+### Volunteer translating the Playing Cards
+
+Any help in translating the cards into other languages is highly appreciated. If you want
+to volunteer and see any bigger technical issues on your side and already followed the
+descriptions then simply get in touch with a maintainer of the Scrum Card Game GitHub
+repository. You are welcome!
+
+Translation (new texts and text replacements to improve existing texts) is mainly done by
+modification of the file `cardgenerator/cardcontent.py`. Editing is done in any text
+editor that supports files in UTF-8 format. Which is usually the case in all major
+up-to-date text editors.
+
+Adding a translation is simply done by adding the appropriate line per card entry.
+Language ID shall be in lower case. If an aphostroph ' is needed in your text then
+simply use double quotes surrounding your text.
+
+If you scroll around in the file you will see that card content is defined in there
+and each card definition holds at least English and German text (if not even some more)
+directly beside each other.
+
+E.g. like
+```
+cardcontent = [
+...
+  {
+    'type' : 'event',
+    'smiley' : ':-)',
+    'en_title' : 'GURU',
+    'en' : 'A guru visited your office. You may immediately remove one problem card from the current story.',
+    'de_title' : 'GURU', 
+    'de' : 'Ein Guru war zu Besuch im Büro. Du darfst sofort eine Problemkarte von der aktuellen Story weglegen.', 
+  },
+...
+```
+
+Now if you want to add a new language like Spanish, then this can be done with just
+adding in the curly braces
+
+```
+    'es_title' : 'GURU', 
+    'es' : 'Un gurú ha venido a verte. Puedes eliminar una tarjeta de Problema inmediatamente.',
+```
+
+or Russian
+
+```
+    'ru_title' : ' гуру', 
+    'ru' : 'Мимо проходил гуру. Вы можете убрать все Проблемы с одной задачи.',
+```
+
+For card texts not translated so far you should eventually create dummy texts entries
+for your language to assist upcoming translation steps.
+
+And that's it! Some additional changes are needed in the scripts section currently.
+As soon as you contribute a four eye review of your changes is performed.
+The ```cardgenerator/cardgenerator.py``` holds a line defining which translations
+shall be generated. It shall look like:
+
+```
+ for lang in [ 'de', 'en' ]:
+```
+
+If a preferred language is missing simply add it. If a language is intended to be skipped
+then remove it.
 
 ### Concatenate PDFs into one PDF if needed
 
