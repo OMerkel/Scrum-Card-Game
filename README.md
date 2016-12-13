@@ -6,6 +6,55 @@ Scrum Card Game: Scrum Sprint Simulation played as a multi-player card game
 <tr><td><img alt='The main game material of Scrum Card Game' src='scrum_card_game-rules/docbook/src/docbkx/media/game_material_de.jpg' width='80%' /></td><td>The main game material of Scrum Card Game,<br /><a rel='license' href='http://creativecommons.org/licenses/by-sa/4.0'><img alt='Creative Commons License' style='border-width:0' src='res/cc_by_sa-88x31.png' /></a>This image is licensed under a <a rel='license' href='http://creativecommons.org/licenses/by-sa/4.0'>Creative Commons Attribution-ShareAlike 4.0 International License</a>.</td></tr>
 </tbody></table>
 
+## Abstract
+
+A card game has been created in this project to support learners of agile framework SCRUM.
+The card game is used so that players experience work in a simulated SCRUM sprint scenario.
+It allows reflection of many questions and topics that happen in real life while working in
+a SCRUM team, too. Players act in a collaborative team environment during game play.
+This game is typically played during a training or workshop.
+
+__Keywords__ ___SCRUM, agile, software development framework, education, training, card game, learning, simulation, multi-player, team work___
+
+## Motivation
+
+The concept to simulate real life scenarios in game play turns out to be an approach for
+several authors in the agile domain. The intention of such an approach is to ease
+understanding of underlying methods and strategies for learners of the agile software
+development domain. The proposal of using such a card game follows the idea that a
+simulated game scenario is helpful for experienced players to either exploit situations
+not experienced so far and explore or test strategies when encoutering real life
+situations similar or close to the ones as simulated in game play.
+
+## Related Work
+
+Various proposals to simulate real life agile scenarios in game play already exist.
+Major differences among these simulation games can be seen in terms of game material,
+simulated roles per player, amount of players, effort of preparation and set up,
+abstraction or detail level of game aspects covering the
+simulated agile real life domain. By skipping such aspects the game moves from
+generalization to specialization of covered subjects or vice versa. Such that the choice
+of aspects leads to a training of either wider or deeper knowledge in the game scope.
+
+[BNH03] describes the card game ___Problems and Programmers___ as a competitive game.
+Each player acts in the role of a project leader given
+same project tasks but solved independently from each other. Thus it restricts team play
+and the player will hardly gain more experience in team collaboration and team
+retrospectives with acting in and responsibility of different roles. Still it
+covers project phases from setting up requirements, design phase, implementation,
+integration, and maintenance. The game play follows a classic waterfall model. It does
+hardly cover agile self organizing, iterative, and retrospective recurring aspects.
+
+In [FeSo10] the card game ___PlayScrum___ is presentedcovering the scope of learning
+Scrum agile method. It claims to be the predecessor of ___Problems and Programmers___.
+Again it is missing collaboration of participating players. Instead each player slips
+into the role of a Scrum Master following the practices of Scrum. A die is used to
+determine the amount of cards to be drawn from a card pile on a player's turn.
+The team working on open tasks from a Backlog is represented in an abstract way by
+so called developer cards the Scrum Master controls. Having that said this means that
+team experiences by human players in different roles working in collaboration are
+not performed and shared amongst the participants.
+
 ## Print and Play
 
 This repository's subdirectories contain PDF files with rules and
@@ -194,6 +243,12 @@ Windows users might find GhostScript versions in 32bit and 64bit as `gswin32.exe
 * http://json.org
 * https://www.w3.org/Graphics/SVG
 * http://ghostscript.com
+
+## References
+
+* __[FeSo10]__ João M. Fernandes, Sónia M. Sousa, "[PlayScrum - A Card Game to Learn the Scrum Agile Method](https://pdfs.semanticscholar.org/ec4b/3b68875c27a01da0edffc652e610ef4615d4.pdf)", Proceedings of Second International Conference on Games and Virtual Worlds for Serious Applications, VS-GAMES2010, Portugal, March 2010.
+* __[BNH03]__ Alex Baker, Emily Oh Navarro, André van der Hoek, "[An Experimental Card Game for Teaching Software Engineering](http://www.ics.uci.edu/~emilyo/papers/CSEET2003.pdf)", Proceedings of CSEET 2003, 16th Conference on Software Engineering Education and Training, p.216, ISBN:0-7695-1869-9, IEEE Computer Society Washington, DC, USA, 2003
+    * [Problems and Programmers](https://boardgamegeek.com/boardgame/21999/problems-and-programmers) @ https://boardgamegeek.com
 
 ## Legal / License
 
