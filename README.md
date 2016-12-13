@@ -14,7 +14,7 @@ It allows reflection of many questions and topics that happen in real life while
 a SCRUM team, too. Players act in a collaborative team environment during game play.
 This game is typically played during a training or workshop.
 
-<b>Keywords</b> ___SCRUM, agile, software development framework, education, training, card game, learning, simulation, multi-player, team work___
+__Keywords__ _SCRUM, agile, software development framework, education, training, card game, learning, simulation, multi-player, team work_
 
 ## Motivation
 
