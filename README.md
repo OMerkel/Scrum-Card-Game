@@ -46,7 +46,7 @@ covers project phases from setting up requirements, design phase, implementation
 integration, and maintenance. The game play follows a classic waterfall model. It does
 hardly cover agile self organizing, iterative, and retrospective recurring aspects.
 
-In [FeSo10] the card game ___PlayScrum___ is presentedcovering the scope of learning
+In [FeSo10] the card game ___PlayScrum___ is presented covering the scope of learning
 Scrum agile method. It claims to be the predecessor of ___Problems and Programmers___.
 Again it is missing collaboration of participating players. Instead each player slips
 into the role of a Scrum Master following the practices of Scrum. A die is used to
