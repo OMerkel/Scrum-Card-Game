@@ -12,7 +12,8 @@ A card game has been created in this project to support learners of agile framew
 The card game is used so that players experience work in a simulated SCRUM sprint scenario.
 It allows reflection of many questions and topics that happen in real life while working in
 a SCRUM team, too. Players act in a collaborative team environment during game play.
-This game is typically played during a training or workshop.
+Multiple teams can compete against each other. This game is typically played during a
+training or workshop.
 
 __Keywords__ _SCRUM, agile, software development framework, education, training, card game, learning, simulation, multi-player, team work_
 
